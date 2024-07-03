@@ -95,6 +95,30 @@
       "group": "2",
       "mode": "work",
       "url": "https://rosettacode.org/wiki/Rosetta_Code"
+    },
+    {
+      "name": "mobbin",
+      "group": "3",
+      "mode": "work",
+      "url": "https://mobbin.com"
+    },
+    {
+      "name": "v0",
+      "group": "3",
+      "mode": "work",
+      "url": "https://v0.dev"
+    },
+    {
+      "name": "httpster",
+      "group": "3",
+      "mode": "work",
+      "url": "https://httpster.net"
+    },
+    {
+      "name": "dribble",
+      "group": "3",
+      "mode": "work",
+      "url": "https://dribble.com"
     }
   ],
   "bonfire": [

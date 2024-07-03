@@ -88,12 +88,15 @@ export function createWorkLinksEl(data: LinkList): HTMLElement {
   const groupOne = document.createElement('ul');
   const groupTwo = document.createElement('ul');
   const groupThree = document.createElement('ul');
+  const groupFour = document.createElement('ul');
   groupOne.appendChild(createTitleLI('daily', 'work'));
   groupOne.setAttribute('data-list', 'work');
   groupTwo.appendChild(createTitleLI('tools', 'work'));
   groupTwo.setAttribute('data-list', 'work');
   groupThree.appendChild(createTitleLI('docs', 'work'));
   groupThree.setAttribute('data-list', 'work');
+  groupFour.appendChild(createTitleLI('inspo', 'work'));
+  groupFour.setAttribute('data-list', 'work');
   linkContainer.classList.add('links-container');
   linkContainer.setAttribute('data-mode', 'work');
   createWorkFavIcon();
@@ -110,10 +113,14 @@ export function createWorkLinksEl(data: LinkList): HTMLElement {
       case '2':
         groupThree.appendChild(linkObject);
         break;
+      case '3':
+        groupFour.appendChild(linkObject);
+        break;
     }
     linkContainer.appendChild(groupOne);
     linkContainer.appendChild(groupTwo);
     linkContainer.appendChild(groupThree);
+    linkContainer.appendChild(groupFour);
   });
   return linkContainer;
 }
