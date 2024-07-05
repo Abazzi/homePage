@@ -213,16 +213,10 @@
       "url": "https://lidarr.adambazzi.ca"
     },
     {
-      "name": "radarr",
+      "name": "jellyseerr",
       "group": "3",
       "mode": "bonfire",
-      "url": "https://radarr.adambazzi.ca"
-    },
-    {
-      "name": "sonarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://sonarr.adambazzi.ca"
+      "url": "https://jellyseerr.adambazzi.ca"
     },
     {
       "name": "qbittorrent",
