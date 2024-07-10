@@ -177,16 +177,10 @@
       "url": "https://discord.com/app"
     },
     {
-      "name": "netflix",
+      "name": "jellyfin",
       "group": "2",
       "mode": "bonfire",
-      "url": "https://netflix.com"
-    },
-    {
-      "name": "kavita",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://kavita.adambazzi.ca"
+      "url": "https://jellyfin.adambazzi.ca"
     },
     {
       "name": "navidrome",
@@ -195,16 +189,28 @@
       "url": "https://navidrome.adambazzi.ca"
     },
     {
-      "name": "jellyfin",
+      "name": "nts",
       "group": "2",
       "mode": "bonfire",
-      "url": "https://jellyfin.adambazzi.ca"
+      "url": "https://nts.live"
     },
     {
       "name": "photo prism",
       "group": "2",
       "mode": "bonfire",
       "url": "https://photoprism.adambazzi.ca"
+    },
+    {
+      "name": "kavita",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://kavita.adambazzi.ca"
+    },
+    {
+      "name": "netflix",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://netflix.com"
     },
     {
       "name": "lidarr",
