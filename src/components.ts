@@ -324,7 +324,7 @@ export function createComicsDialog(): HTMLDialogElement {
 
   // Dialog Header
   const title = document.createElement('h1');
-  title.textContent = 'Daily Comics Strips';
+  title.textContent = 'Daily Comics Strips (ESC to Close)';
   title.id = 'comic-strips-header';
   title.dataset.mode = 'bonfire';
 
