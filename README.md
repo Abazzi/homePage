@@ -13,7 +13,7 @@ Bonfire Mode Has a Dialog Window that uses [ComicsRSS](https://github.com/Artsky
 
 ### Work Mode
 
-![image](https://github.com/Abazzi/homePage/assets/8884041/2313bd6e-9b52-4c10-a190-03012254d7a9)
+![image](https://github.com/Abazzi/homePage/assets/8884041/6e4fd08a-9d7d-4f83-9240-e3fd060369f7)
 
 ### Comic Strip Dialog
 

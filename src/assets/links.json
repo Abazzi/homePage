@@ -147,28 +147,28 @@
       "url": "https://mail.proton.me"
     },
     {
-      "name": "gmail",
-      "group": "0",
-      "mode": "bonfire",
-      "url": "https://mail.google.com"
-    },
-    {
       "name": "vaultwarden",
       "group": "0",
       "mode": "bonfire",
       "url": "https://vaultwarden.adambazzi.ca"
     },
     {
-      "name": "letterboxd",
-      "group": "1",
+      "name": "gmail",
+      "group": "0",
       "mode": "bonfire",
-      "url": "https://letterboxd.com"
+      "url": "https://mail.google.com"
     },
     {
       "name": "patreon",
       "group": "1",
       "mode": "bonfire",
       "url": "https://patreon.com"
+    },
+    {
+      "name": "letterboxd",
+      "group": "1",
+      "mode": "bonfire",
+      "url": "https://letterboxd.com"
     },
     {
       "name": "bubbles form",
@@ -195,22 +195,10 @@
       "url": "https://navidrome.adambazzi.ca"
     },
     {
-      "name": "nts",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://nts.live"
-    },
-    {
       "name": "photo prism",
       "group": "2",
       "mode": "bonfire",
       "url": "https://photoprism.adambazzi.ca"
-    },
-    {
-      "name": "kavita",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://kavita.adambazzi.ca"
     },
     {
       "name": "netflix",
@@ -219,10 +207,28 @@
       "url": "https://netflix.com"
     },
     {
-      "name": "lidarr",
+      "name": "kavita",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://kavita.adambazzi.ca"
+    },
+    {
+      "name": "nts",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://nts.live"
+    },
+    {
+      "name": "radarr",
       "group": "3",
       "mode": "bonfire",
-      "url": "https://lidarr.adambazzi.ca"
+      "url": "https://radarr.adambazzi.ca"
+    },
+    {
+      "name": "sonarr",
+      "group": "3",
+      "mode": "bonfire",
+      "url": "https://sonarr.adambazzi.ca"
     },
     {
       "name": "jellyseerr",
@@ -237,10 +243,17 @@
       "url": "https://qbit.adambazzi.ca"
     },
     {
+
       "name": "file explorer",
       "group": "3",
       "mode": "bonfire",
       "url": "https://files.adambazzi.ca"
+    },
+    {
+      "name": "lidarr",
+      "group": "3",
+      "mode": "bonfire",
+      "url": "https://lidarr.adambazzi.ca"
     }
   ]
 }
