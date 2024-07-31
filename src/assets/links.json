@@ -235,6 +235,12 @@
       "group": "3",
       "mode": "bonfire",
       "url": "https://qbit.adambazzi.ca"
+    },
+    {
+      "name": "file explorer",
+      "group": "3",
+      "mode": "bonfire",
+      "url": "https://files.adambazzi.ca"
     }
   ]
 }
