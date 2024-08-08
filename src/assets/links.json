@@ -183,6 +183,12 @@
       "url": "https://discord.com/app"
     },
     {
+      "name": "instagram",
+      "group": "1",
+      "mode": "bonfire",
+      "url": "https://instagram.com"
+    },
+    {
       "name": "jellyfin",
       "group": "2",
       "mode": "bonfire",
