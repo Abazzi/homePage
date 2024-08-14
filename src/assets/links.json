@@ -121,6 +121,12 @@
       "url": "https://httpster.net"
     },
     {
+      "name": "chatGPT",
+      "group": "3",
+      "mode": "work",
+      "url": "https://chatgpt.com"
+    },
+    {
       "name": "dribble",
       "group": "3",
       "mode": "work",
