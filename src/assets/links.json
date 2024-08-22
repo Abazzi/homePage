@@ -195,6 +195,12 @@
       "url": "https://instagram.com"
     },
     {
+      "name": "brain",
+      "group": "1",
+      "mode": "bonfire",
+      "url": "https://github.com/Abazzi/brain"
+    },
+    {
       "name": "jellyfin",
       "group": "2",
       "mode": "bonfire",
