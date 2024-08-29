@@ -1,4 +1,4 @@
-import { LinkList, Entity, ComicInfo } from './types';
+import { LinkList, Entity, ComicStrip } from './types';
 import bonfireAppleTouch from './assets/img/bonfireFavicon/apple-touch-icon.png';
 import bonfireFav32 from './assets/img/bonfireFavicon/favicon-32x32.png';
 import bonfireFav16 from './assets/img/bonfireFavicon/favicon-16x16.png';
@@ -195,6 +195,7 @@ export function createComicsDialogButton(): HTMLImageElement {
   img.alt = 'comics-dialog-launcher';
   img.id = 'comics-dialog-launcher';
   img.dataset.mode = 'bonfire';
+  // Peanuts Graphic being used as button
   img.src = aaugh;
   return img;
 }
