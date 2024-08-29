@@ -354,12 +354,20 @@ export function createComicsDialog(): HTMLDialogElement {
       rssUrl: 'https://www.comicsrss.com/rss/peanuts.rss',
     },
     {
+      seriesName: 'Peanuts Begins',
+      rssUrl: 'https://www.comicsrss.com/rss/peanuts-begins.rss',
+    },
+    {
       seriesName: 'Zippy',
       rssUrl: 'https://www.comicsrss.com/rss/zippy-the-pinhead.rss',
     },
     {
       seriesName: 'Calvin & Hobbs',
       rssUrl: 'https://www.comicsrss.com/rss/calvinandhobbes.rss',
+    },
+    {
+      seriesName: 'The Boondocks',
+      rssUrl: 'https://www.comicsrss.com/rss/boondocks.rss',
     },
   ];
 
