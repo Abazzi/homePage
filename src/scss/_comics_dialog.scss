@@ -58,3 +58,8 @@
 .comic-nav-button:hover {
   cursor: pointer;
 }
+
+.comic-strip {
+  object-fit: cover;
+  max-width: 1000px;
+}

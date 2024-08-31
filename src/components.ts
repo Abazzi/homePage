@@ -1,4 +1,4 @@
-import { LinkList, Entity, ComicInfo } from './types';
+import { LinkList, Entity, ComicStrip } from './types';
 import bonfireAppleTouch from './assets/img/bonfireFavicon/apple-touch-icon.png';
 import bonfireFav32 from './assets/img/bonfireFavicon/favicon-32x32.png';
 import bonfireFav16 from './assets/img/bonfireFavicon/favicon-16x16.png';
@@ -195,22 +195,26 @@ export function createComicsDialogButton(): HTMLImageElement {
   img.alt = 'comics-dialog-launcher';
   img.id = 'comics-dialog-launcher';
   img.dataset.mode = 'bonfire';
+  // Peanuts Graphic being used as button
   img.src = aaugh;
   return img;
 }
 
-// TODO: This function does too many things
-export function createComicsSeriesButton(
-  seriesName: string,
-  rssUrl: string
-): HTMLButtonElement {
-  const button = document.createElement('button');
-  button.textContent = seriesName;
-  button.classList.add('comic-series-button');
-  button.dataset.rssUrl = rssUrl;
-  button.dataset.button = 'bonfire';
-
-  button.addEventListener('click', async () => {
+export function createComicsDialogDropdownListElement(
+  comicStrips: Array<ComicStrip>
+): HTMLElement {
+  const dropdown = document.createElement('select');
+  dropdown.classList.add('comics-dropdown');
+  for (let index = 0; index < comicStrips.length; index++) {
+    const dropdownOption = document.createElement('option');
+    dropdown.classList.add('comic-strips-dropdown');
+    dropdownOption.classList.add('comic-strip-option');
+    dropdownOption.text = comicStrips[index].seriesName;
+    dropdownOption.value = comicStrips[index].stripURL;
+    dropdown.add(dropdownOption);
+  }
+  dropdown.addEventListener('change', async () => {
+    console.log(dropdown.value);
     const oldLeftNav = document.getElementById('comic-left-nav-button');
     const oldRightNav = document.getElementById('comic-right-nav-button');
     if (oldLeftNav) {
@@ -226,7 +230,7 @@ export function createComicsSeriesButton(
      * will put them in the order they were released where the first comic in
      * the array is the oldest instead of the newest
      */
-    let rssData = await fetchComic(rssUrl);
+    let rssData = await fetchComic(dropdown.value);
     rssData = rssData.reverse();
     let comicStripIndex = 49;
 
@@ -275,8 +279,7 @@ export function createComicsSeriesButton(
       console.log(comicStripIndex);
     });
   });
-
-  return button;
+  return dropdown;
 }
 
 export function createComicNavigationRightButton(): HTMLButtonElement {
@@ -331,47 +334,46 @@ export function createComicsDialog(): HTMLDialogElement {
   titleDiv.setAttribute('id', 'comic-title-div');
   titleDiv.append(title);
 
-  // Div to hold series buttons
-  const comicSeriesButtonDiv = document.createElement('div');
-  comicSeriesButtonDiv.id = 'comic-series-button-div';
-  comicSeriesButtonDiv.dataset.mode = 'bonfire';
-
   // Div to hold the rss content
   const comicStripsDiv = document.createElement('div');
   comicStripsDiv.id = 'comic-strips-div';
 
-  const comicTitleArray: Array<ComicInfo> = [
+  const comicTitleArray: Array<ComicStrip> = [
     {
       seriesName: 'Nancy (Classic)',
-      rssUrl: 'https://www.comicsrss.com/rss/nancy-classics.rss',
+      stripURL: 'https://www.comicsrss.com/rss/nancy-classics.rss',
     },
     {
       seriesName: 'Nancy (Modern)',
-      rssUrl: 'https://www.comicsrss.com/rss/nancy.rss',
+      stripURL: 'https://www.comicsrss.com/rss/nancy.rss',
     },
     {
       seriesName: 'Peanuts',
-      rssUrl: 'https://www.comicsrss.com/rss/peanuts.rss',
+      stripURL: 'https://www.comicsrss.com/rss/peanuts.rss',
+    },
+    {
+      seriesName: 'Peanuts Begins',
+      stripURL: 'https://www.comicsrss.com/rss/peanuts-begins.rss',
     },
     {
       seriesName: 'Zippy',
-      rssUrl: 'https://www.comicsrss.com/rss/zippy-the-pinhead.rss',
+      stripURL: 'https://www.comicsrss.com/rss/zippy-the-pinhead.rss',
     },
     {
       seriesName: 'Calvin & Hobbs',
-      rssUrl: 'https://www.comicsrss.com/rss/calvinandhobbes.rss',
+      stripURL: 'https://www.comicsrss.com/rss/calvinandhobbes.rss',
+    },
+    {
+      seriesName: 'The Boondocks',
+      stripURL: 'https://www.comicsrss.com/rss/boondocks.rss',
     },
   ];
 
-  dialog.appendChild(titleDiv);
-  dialog.appendChild(comicSeriesButtonDiv);
-  dialog.appendChild(comicStripsDiv);
+  const dropdown = createComicsDialogDropdownListElement(comicTitleArray);
 
-  comicTitleArray.forEach((comic) => {
-    comicSeriesButtonDiv.appendChild(
-      createComicsSeriesButton(comic.seriesName, comic.rssUrl)
-    );
-  });
+  dialog.appendChild(titleDiv);
+  dialog.appendChild(dropdown);
+  dialog.appendChild(comicStripsDiv);
 
   return dialog;
 }
