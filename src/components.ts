@@ -204,6 +204,7 @@ export function createComicsDialogDropdownListElement(
   comicStrips: Array<ComicStrip>
 ): HTMLElement {
   const dropdown = document.createElement('select');
+  dropdown.classList.add('comics-dropdown');
   for (let index = 0; index < comicStrips.length; index++) {
     const dropdownOption = document.createElement('option');
     dropdown.classList.add('comic-strips-dropdown');
