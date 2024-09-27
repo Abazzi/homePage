@@ -207,6 +207,12 @@
       "url": "https://jellyfin.adambazzi.ca"
     },
     {
+      "name": "jellyseerr",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://jellyseerr.adambazzi.ca"
+    },
+    {
       "name": "navidrome",
       "group": "2",
       "mode": "bonfire",
@@ -235,12 +241,6 @@
       "group": "2",
       "mode": "bonfire",
       "url": "https://nts.live"
-    },
-    {
-      "name": "jellyseerr",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://jellyseerr.adambazzi.ca"
     },
     {
       "name": "radarr",
