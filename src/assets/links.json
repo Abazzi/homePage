@@ -237,6 +237,12 @@
       "url": "https://nts.live"
     },
     {
+      "name": "jellyseerr",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://jellyseerr.adambazzi.ca"
+    },
+    {
       "name": "radarr",
       "group": "3",
       "mode": "bonfire",
@@ -249,12 +255,6 @@
       "url": "https://sonarr.adambazzi.ca"
     },
     {
-      "name": "jellyseerr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://jellyseerr.adambazzi.ca"
-    },
-    {
       "name": "qbittorrent",
       "group": "3",
       "mode": "bonfire",
@@ -262,10 +262,17 @@
     },
     {
 
-      "name": "file explorer",
+      "name": "prowlarr",
       "group": "3",
       "mode": "bonfire",
-      "url": "https://files.adambazzi.ca"
+      "url": "https://prowlarr.adambazzi.ca"
+    },
+    {
+
+      "name": "readarr",
+      "group": "3",
+      "mode": "bonfire",
+      "url": "https://readarr.adambazzi.ca"
     },
     {
       "name": "lidarr",
