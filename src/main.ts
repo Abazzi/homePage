@@ -1,5 +1,5 @@
 import linkData from './assets/links.json';
-import { fetchWeather, init } from './helpers';
+import { fetchWeather, init, switchModes } from './helpers';
 import { LinkList } from './types';
 
 const links: LinkList = {
@@ -33,6 +33,12 @@ weather.then((data: string) => {
     const weatherSpan =
       (document.querySelector('[data-weather]') as HTMLElement) || null;
     weatherSpan.innerText = 'Could not get weather';
+  }
+});
+
+window.addEventListener('keydown', (e) => {
+  if (e.key == 'w') {
+    switchModes(links);
   }
 });
 
