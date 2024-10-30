@@ -152,7 +152,7 @@ export async function switchToBonfire(data: LinkList): Promise<void> {
   directoryContainer.appendChild(directory);
   infoBar.insertBefore(comicsDialogButton, infoBar.firstChild);
   infoBar.appendChild(lightSwitch);
-  directory.innerHTML = '&gt; cd ~/bonfire/<span class="blinking">_</span>';
+  directory.innerHTML = '&gt; cd ~/<span class="blinking">_</span>';
   rightContainer.appendChild(createBonfireLinkEl(data));
   tab.textContent = '~/bonfire';
   comicButtons.forEach((button) => {

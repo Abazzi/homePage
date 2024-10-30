@@ -201,6 +201,18 @@
       "url": "https://github.com/Abazzi/brain"
     },
     {
+      "name": "music",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://music.adambazzi.ca"
+    },
+    {
+      "name": "photos",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://photos.adambazzi.ca"
+    },
+    {
       "name": "jellyfin",
       "group": "2",
       "mode": "bonfire",
@@ -213,25 +225,13 @@
       "url": "https://jellyseerr.adambazzi.ca"
     },
     {
-      "name": "navidrome",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://navidrome.adambazzi.ca"
-    },
-    {
-      "name": "photos",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://photos.adambazzi.ca"
-    },
-    {
       "name": "netflix",
       "group": "2",
       "mode": "bonfire",
       "url": "https://netflix.com"
     },
     {
-      "name": "kavita",
+      "name": "books",
       "group": "2",
       "mode": "bonfire",
       "url": "https://kavita.adambazzi.ca"
@@ -261,14 +261,12 @@
       "url": "https://qbit.adambazzi.ca"
     },
     {
-
       "name": "prowlarr",
       "group": "3",
       "mode": "bonfire",
       "url": "https://prowlarr.adambazzi.ca"
     },
     {
-
       "name": "readarr",
       "group": "3",
       "mode": "bonfire",
