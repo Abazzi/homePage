@@ -237,10 +237,10 @@
       "url": "https://kavita.adambazzi.ca"
     },
     {
-      "name": "nts",
+      "name": "tidal",
       "group": "2",
       "mode": "bonfire",
-      "url": "https://nts.live"
+      "url": "https://listen.tidal.com"
     },
     {
       "name": "radarr",
