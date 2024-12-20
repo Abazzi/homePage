@@ -153,12 +153,6 @@
       "url": "https://mail.proton.me"
     },
     {
-      "name": "vaultwarden",
-      "group": "0",
-      "mode": "bonfire",
-      "url": "https://vaultwarden.adambazzi.ca"
-    },
-    {
       "name": "gmail",
       "group": "0",
       "mode": "bonfire",
@@ -234,7 +228,7 @@
       "name": "books",
       "group": "2",
       "mode": "bonfire",
-      "url": "https://kavita.adambazzi.ca"
+      "url": "https://books.adambazzi.ca"
     },
     {
       "name": "tidal",
@@ -267,16 +261,10 @@
       "url": "https://prowlarr.adambazzi.ca"
     },
     {
-      "name": "readarr",
+      "name": "bazarr",
       "group": "3",
       "mode": "bonfire",
-      "url": "https://readarr.adambazzi.ca"
-    },
-    {
-      "name": "lidarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://lidarr.adambazzi.ca"
+      "url": "https://bazarr.adambazzi.ca"
     }
   ]
 }
