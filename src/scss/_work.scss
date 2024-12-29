@@ -18,12 +18,12 @@ button[data-button='work'] {
 
 [data-list-title='work'] {
   color: c.$cp-peach;
-  font-family: f.$jost-font;
+  font-family: f.$torus;
   font-size: 1.5rem;
 }
 
 [data-info-bar='work'] {
-  font-family: f.$jost-font;
+  font-family: f.$torus;
   color: c.$cp-text;
   background-color: c.$cp-surface0;
 }
@@ -34,7 +34,7 @@ button[data-button='work'] {
 
 [data-list-item='work'] {
   color: c.$cp-mauve;
-  font-family: f.$jost-font;
+  font-family: f.$torus;
 
   a:link {
     text-decoration: none;
@@ -51,7 +51,7 @@ button[data-button='work'] {
 }
 
 [data-directory='work'] {
-  font-family: f.$jost-font;
+  font-family: f.$torus;
   color: c.$cp-mauve;
 }
 
