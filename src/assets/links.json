@@ -219,6 +219,12 @@
       "url": "https://jellyfin.adambazzi.ca"
     },
     {
+      "name": "criterion channel",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://www.criterionchannel.com"
+    },
+    {
       "name": "jellyseerr",
       "group": "2",
       "mode": "bonfire",
