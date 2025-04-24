@@ -153,6 +153,12 @@
       "url": "https://mail.proton.me"
     },
     {
+      "name": "pixel drain",
+      "group": "0",
+      "mode": "bonfire",
+      "url": "https://pixeldrain.com/home"
+    },
+    {
       "name": "gmail",
       "group": "0",
       "mode": "bonfire",
@@ -183,12 +189,6 @@
       "url": "https://discord.com/app"
     },
     {
-      "name": "instagram",
-      "group": "1",
-      "mode": "bonfire",
-      "url": "https://instagram.com"
-    },
-    {
       "name": "brain",
       "group": "1",
       "mode": "bonfire",
@@ -213,16 +213,10 @@
       "url": "https://jellyfin.adambazzi.ca"
     },
     {
-      "name": "criterion channel",
+      "name": "criterion \n channel",
       "group": "2",
       "mode": "bonfire",
       "url": "https://www.criterionchannel.com"
-    },
-    {
-      "name": "jellyseerr",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://jellyseerr.adambazzi.ca"
     },
     {
       "name": "netflix",
@@ -261,16 +255,16 @@
       "url": "https://qbit.adambazzi.ca"
     },
     {
+      "name": "jellyseerr",
+      "group": "3",
+      "mode": "bonfire",
+      "url": "https://jellyseerr.adambazzi.ca"
+    },
+    {
       "name": "prowlarr",
       "group": "3",
       "mode": "bonfire",
       "url": "https://prowlarr.adambazzi.ca"
-    },
-    {
-      "name": "readarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://readarr.adambazzi.ca"
     },
     {
       "name": "bazarr",
