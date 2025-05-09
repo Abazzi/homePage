@@ -189,6 +189,13 @@
       "url": "https://discord.com/app"
     },
     {
+
+      "name": "moxfield",
+      "group": "1",
+      "mode": "bonfire",
+      "url": "https://www.moxfield.com"
+    },
+    {
       "name": "brain",
       "group": "1",
       "mode": "bonfire",
@@ -265,12 +272,6 @@
       "group": "3",
       "mode": "bonfire",
       "url": "https://prowlarr.adambazzi.ca"
-    },
-    {
-      "name": "readarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://readarr.adambazzi.ca"
     },
     {
       "name": "bazarr",
